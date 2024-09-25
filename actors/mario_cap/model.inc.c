@@ -1,9 +1,11 @@
 // Mario Cap (Normal Cap, Metal, Winged, etc)
+#include "actors/mario/model.inc.c"
+#define mario_cap_seg3_texture_0301DF50 mario_custom_luigi_logo_rgba16
 
 // 0x0301CF08
 static const Lights1 mario_cap_seg3_lights_0301CF08 = gdSPDefLights1(
-    0x39, 0x03, 0x00,
-    0x73, 0x06, 0x00, 0x28, 0x28, 0x28
+    0x00, 0x39, 0x03,
+    0x00, 0x73, 0x06, 0x28, 0x28, 0x28
 );
 
 // 0x0301CF20
@@ -14,18 +16,13 @@ static const Lights1 mario_cap_seg3_lights_0301CF20 = gdSPDefLights1(
 
 // 0x0301CF38
 static const Lights1 mario_cap_seg3_lights_0301CF38 = gdSPDefLights1(
-    0x7f, 0x00, 0x00,
-    0xff, 0x00, 0x00, 0x28, 0x28, 0x28
+    0x00, 0x7f, 0x00,
+    0x00, 0xff, 0x00, 0x28, 0x28, 0x28
 );
 
 // 0x0301CF50
 ALIGNED8 static const Texture mario_cap_seg3_texture_0301CF50[] = {
 #include "actors/mario_cap/mario_cap_metal.rgba16.inc.c"
-};
-
-// 0x0301DF50
-ALIGNED8 static const Texture mario_cap_seg3_texture_0301DF50[] = {
-#include "actors/mario_cap/mario_cap_logo.rgba16.inc.c"
 };
 
 // 0x0301E750

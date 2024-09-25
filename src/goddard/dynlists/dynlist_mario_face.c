@@ -368,8 +368,8 @@ struct DynList dynlist_mario_face_shape[] = {
         // Shadow on back of hat
         MakeDynObj(D_MATERIAL, 0),
             SetId(2),
-            SetAmbient(0.362, 0.0, 0.0),
-            SetDiffuse(0.362, 0.0, 0.0),
+            SetAmbient(0.0, 0.362, 0.0),
+            SetDiffuse(0.0, 0.362, 0.0),
         // Cap emblem color
         MakeDynObj(D_MATERIAL, 0),
             SetId(3),
@@ -393,8 +393,8 @@ struct DynList dynlist_mario_face_shape[] = {
         // Cap color
         MakeDynObj(D_MATERIAL, 0),
             SetId(7),
-            SetAmbient(1.0, 0.0, 0.0),
-            SetDiffuse(1.0, 0.0, 0.0),
+            SetAmbient(0.0, 1.0, 0.0),
+            SetDiffuse(0.0, 1.0, 0.0),
     EndGroup(DYNOBJ_MARIO_FACE_MTL_GROUP),
 
     MakeDynObj(D_SHAPE, DYNOBJ_MARIO_FACE_SHAPE),

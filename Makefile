@@ -487,7 +487,7 @@ distclean: clean
 	$(MAKE) -C $(TOOLS_DIR)/sm64tools clean
 
 test: $(ROM)
-	$(EMULATOR) $(EMU_FLAGS) $<
+	xdg-open $<
 
 load: $(ROM)
 	$(LOADER) $(LOADER_FLAGS) $<
